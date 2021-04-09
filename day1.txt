@@ -1,0 +1,31 @@
+Lets Understand Docker:	
+	1. What is docker?
+	2. what is container?
+	3. what is an image?
+	4. containers vs virtual machines
+	5. Dockerfile basics
+	6. Dockers Architecture
+	7. Layering in Docker
+
+Installation:
+	Installation on Linux
+
+Docker Basics:
+	Docker Images - where can we find official images?
+	local Images - how to list local images?
+	My first container - create it
+	Build image from Dockerfile - this is our first image
+	testing our image - create container out of it
+	
+	
+Lets understand Docker Images: by writing Dockerfile
+	1. FROM
+	2. RUN
+	3. COPY
+	4. ADD
+	6. ENV
+	7. WORKDIR
+	8. USER
+	9. CMD
+
+
