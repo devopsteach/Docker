@@ -1,3 +1,25 @@
 Lets understand Docker Container - deeper:
-
+	- Remove and Rename your container
+	- start 
+	- stop
+	- map port
+	- variable
+	- limiting resources for containers
+	- docker cp
+	- Change the docker root dir
 Docker Volumes:
+	- Bind Volume
+	- Normal Volume
+	- Anonymous Volume
+
+Docker Networks:
+	- Bridge
+	- Host
+	- None
+
+Docker Compose:
+	- what is docker compose?
+	- Installation
+	- create compose file & work with that
+
+
