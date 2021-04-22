@@ -1,0 +1,10 @@
+FROM centos
+
+RUN yum -y install nginx
+
+RUN rm -rf /usr/share/nginx/html/* && \
+    echo "my first container up and running" > /usr/share/nginx/html/index.html
+
+
+CMD nginx -g 'daemon off;'
+
