@@ -2,6 +2,7 @@ version: '3'
 services:
   apache-web:
     build: .
+    image: apache-web:v1
     ports:
       - 8080:80
     
