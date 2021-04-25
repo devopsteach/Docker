@@ -6,7 +6,8 @@ services:
     ports:
       - 8080:80
     container_name: apache-container
-    networks: net1
+    networks: 
+      - net1
   
   mysql-db:
     container_name: mysql-container
@@ -17,7 +18,8 @@ services:
       - MYSQL_ROOT_PASSWORD=password
     volumes:
       - /opt/mysql:/var/lib/mysql
-    networks: net1
+    networks: 
+      - net1
 
 networks:
   net:
