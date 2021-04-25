@@ -5,4 +5,5 @@ services:
     image: apache-web:v1
     ports:
       - 8080:80
+    container_name: apache-container
     
