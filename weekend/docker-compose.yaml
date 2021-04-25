@@ -22,7 +22,7 @@ services:
       - net1
 
 networks:
-  net:
+  net1:
     name: net1
     
     
