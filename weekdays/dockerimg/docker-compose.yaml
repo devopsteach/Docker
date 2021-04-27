@@ -3,6 +3,23 @@ services:
   webserver:
     build: .
     image: httpd:v1
+    restart: on-failure
     container_name: webserver-1
     ports:
      - 8080:80
+    networks:
+     - docker
+  mysqldb:
+    image: mysql
+    container_name: mysqldb-1
+    ports:
+     - 3306:3306
+    environment:
+     - MYSQL_ROOT_PASSWORD=password
+    volumes:
+      - /opt/mysql:/var/lib/mysql
+    networks:
+      - docker
+networks:
+  docker:
+    name: docker
