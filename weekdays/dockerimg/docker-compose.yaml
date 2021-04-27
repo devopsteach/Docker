@@ -3,5 +3,6 @@ services:
   webserver:
     build: .
     image: httpd:v1
-volumes:
-networks:
+    container_name: webserver-1
+    ports:
+     - 8080:80
